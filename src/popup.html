@@ -6,31 +6,34 @@
     <title>Mitzli</title>
     <link rel="stylesheet" href="../styles/css/bulma.min.css" />
     <link rel="stylesheet" href="popup.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="field">
-      <label class="label" for="valueSelect">Selecciona un valor:</label>
-      <div class="control">
-        <div class="select">
-          <select id="valueSelect">
-            <option value="0">Pésimo</option>
-            <option value="1">Malo</option>
-            <option value="2">Regular</option>
-            <option value="3">Bueno</option>
-            <option value="4">Excelente</option>
-          </select>
+    <div class="container is-flex is-align-items-center is-justify-content-center" style="height: 100vh;">
+      <div class="content-box">
+        <div class="select-wrapper"> <!-- Wrapper para el combobox -->
+          <label class="label" for="valueSelect">Selecciona un valor:</label>
+          <div class="control">
+            <div class="select">
+              <select id="valueSelect">
+                <option value="0">Pésimo</option>
+                <option value="1">Malo</option>
+                <option value="2">Regular</option>
+                <option value="3">Bueno</option>
+                <option value="4">Excelente</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="field button-field"> <!-- Clase adicional para el campo del botón -->
+          <div class="control">
+            <button id="applyBtn" class="button is-fullwidth is-primary">
+              Aplicar
+            </button>
+          </div>
         </div>
       </div>
     </div>
-
-    <div class="field">
-      <div class="control">
-        <button id="applyBtn" class="button is-fullwidth is-primary">
-          Aplicar
-        </button>
-      </div>
-    </div>
-
     <script src="popup.js"></script>
   </body>
 </html>
