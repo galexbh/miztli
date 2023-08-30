@@ -1,20 +1,21 @@
 {
     "manifest_version": 3,
     "name": "Miztli",
-    "version": "1.0",
+    "version": "1.2",
     "description": "Extension to automate teacher qualification registration",
     "action": {
-        "default_popup": "src/popup.html",
-        "default_icon": {
-            "16": "assets/icon.png",
-            "48": "assets/icon.png",
-            "128": "assets/icon.png"
-        }
-    },
-    "permissions": ["activeTab", "scripting"],
-    "icons": {
+      "default_popup": "src/popup.html",
+      "default_icon": {
         "16": "assets/icon.png",
         "48": "assets/icon.png",
         "128": "assets/icon.png"
+      }
+    },
+    "permissions": ["activeTab", "scripting"],
+    "host_permissions": ["https://registro.unah.edu.hn/"],
+    "icons": {
+      "16": "assets/icon.png",
+      "48": "assets/icon.png",
+      "128": "assets/icon.png"
     }
-}
+  }
