@@ -1,5 +1,5 @@
 # Miztli
-![GitHub release (by tag)](https://img.shields.io/github/downloads/galexbh/miztli/v1.1.0/total)
+![GitHub release (by tag)](https://img.shields.io/github/downloads/galexbh/miztli/v1.2.0/total)
 
 This extension is intended to facilitate the process of filling out teacher qualification forms.
 
@@ -8,7 +8,7 @@ To avoid wasting time on something that no one reads.
 ## Installation process
 
 ### Download the code in .Zip
-[Click here to download](https://github.com/galexbh/miztli/releases/download/v1.1.0/miztli.zip)
+[Click here to download](https://github.com/galexbh/miztli/releases/download/v1.2.0/miztli.zip)
 
 Make sure to unzip the file once downloaded.
 
